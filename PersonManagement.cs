@@ -29,6 +29,11 @@ namespace PersonDataManagement
                 Console.WriteLine(person.SSN + " " + person.Name + " " + person.Address + " " + person.Age); ;
             }
         }
+        public void GetTopRecords()
+        {
+            var Result = this.personlist.Where(x => x.Age < 60).Take(2);
+            Display(Result);
+        }
 
     }
 }
