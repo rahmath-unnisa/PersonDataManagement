@@ -56,6 +56,13 @@ namespace PersonDataManagement
                 Console.WriteLine("Name Is Present In List");
             }
             Display(result);
+
+          
+        }
+        public void SkipRecords()
+        {
+            var Result = this.personlist.Skip(this.personlist.Where(x => x.Age < 60).Count());
+            Display(Result);
         }
 
     }

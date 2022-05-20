@@ -7,3 +7,4 @@ personManagement.GetTopRecords();
 personManagement.GetRecords();
 personManagement.AvarageRecords();
 personManagement.GetValue();
+personManagement.SkipRecords();
