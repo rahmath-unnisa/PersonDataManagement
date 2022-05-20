@@ -8,3 +8,4 @@ personManagement.GetRecords();
 personManagement.AvarageRecords();
 personManagement.GetValue();
 personManagement.SkipRecords();
+personManagement.RemoveRecords();
