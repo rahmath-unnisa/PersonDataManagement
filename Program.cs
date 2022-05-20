@@ -6,3 +6,4 @@ personManagement.AddDefaultData();
 personManagement.GetTopRecords();
 personManagement.GetRecords();
 personManagement.AvarageRecords();
+personManagement.GetValue();

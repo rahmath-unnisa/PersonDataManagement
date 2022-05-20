@@ -44,6 +44,19 @@ namespace PersonDataManagement
             var Result = this.personlist.Average(x => x.Age);
             Console.WriteLine(Result);
         }
+        public void GetValue()
+        {
+            var result = this.personlist.Where(x => x.Name == "Mehwish");
+            if (result != null)
+            {
+                Console.WriteLine("Name Is Present In List");
+            }
+            else
+            {
+                Console.WriteLine("Name Is Present In List");
+            }
+            Display(result);
+        }
 
     }
 }
